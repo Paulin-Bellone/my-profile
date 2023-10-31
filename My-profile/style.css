@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+.img-circle { 
+  	border-radius: 50%;
+    width: 7cm;
+    height: 7cm;
+
+}
+.img-bordered {
+  border: 10px solid red;
+}
+body{
+
+	background-color: white;
+	color: blue;
+     font-family: 'Lato', sans-serif;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    color: black 
+}
+
+a{
+	text-decoration: none;
+	color: purple;
+}	
+
+.container{
+	width: 700px ;
+	margin: 40px auto;
+}
+
+.card-white{
+	background color: white;
+	padding : 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px ;
+	margin: 20px 0px ; 
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50% ; 
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px ;
+}
+.list-inline li {
+display: inline;
+padding: 10px ;
+}
+
+.list-inline i {
+	font-size: 50px ;
+	color: rgb(230,230,230);
+}
+
+
+.list-inline i:hover {
+	font-size: 50px ;
+	color: black
+}
+
+#introduction {
+	margin-bottom: 40px ;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {  
+  .container {
+    width: 300px;
+  }
+}
